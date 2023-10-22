@@ -1,0 +1,47 @@
+nav {
+    background-color: rgba(240, 12, 12, 0.912);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:  0.5rem 0;
+    box-shadow: 4px 4px 8px #00000020 ;
+}
+
+nav > svg {
+    height: 4rem;
+    width: auto;
+}
+
+.switch{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.switch > svg {
+    height: 2rem;
+    width: auto;
+}
+
+.switch > label{
+    background-color: gray;
+    width: 4rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.switch > label > span {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    background-color: white;
+    transition: 2s;
+}
+
+.checkswitch:checked + .slider {
+    transform: translateX(2.5rem);
+}

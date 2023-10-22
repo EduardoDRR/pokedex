@@ -1,0 +1,52 @@
+.titulo {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+
+.conteiner-buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding:  5px 0;
+}
+
+.input-buscar{
+    background-color: var(--card);
+    color: var(--text);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 12px;
+    flex: .4; 
+    font-size: 16px;
+    box-shadow: 4px 4px 16px #00000020;
+}
+
+.btn-buscar{
+    background-color: rgba(3, 38, 107, 0.63);
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 12px;
+    border: none;
+    box-shadow: 4px 4px 16px #00000020;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    gap: 10px;
+    font-size: 16px;
+    transition: 0.2s;
+    width: auto;
+}
+
+.btn-buscar > svg {
+   width: 18px; 
+   fill: whitesmoke;
+}
+
+.btn-buscar:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+}
